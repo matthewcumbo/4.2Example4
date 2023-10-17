@@ -1,0 +1,10 @@
+/* Class called 'red' that can be used wherever we want */
+.red{
+    color:red;
+}
+
+/* Selectors used to affect all LIs of Ordered Lists only */
+ol li {
+    color:green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
