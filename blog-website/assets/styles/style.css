@@ -14,7 +14,54 @@ body{
     background-color: #F2F4F3;
 }
 
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 1em;
+}
+
+footer{
+    background-color: #22333B;
+    color: #F2F4F3;
+    font-size: .9em;
+    padding: 1.11em 0;
+}
+
 /* CLASSES */
+.blog-post header{
+    text-align: center;
+    margin-top: 4em;
+}
+
+.blog-post .category{
+    text-transform: uppercase;
+}
+
+.blog-post .title{
+    text-transform: capitalize;
+}
+
+.blog-post .image{
+    margin: 2em 0;
+}
+
+.blog-post .subtitle {
+    margin-top: 2em;
+}
+
+.blog-post .summary {
+    padding-left: 40px;
+}
+
+.blog-post .summary li{
+    margin-top: 1em;
+}
+
+.rounded-image img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
 .button {
     background-color: #2F8C62;
     padding: .5em .75em;
