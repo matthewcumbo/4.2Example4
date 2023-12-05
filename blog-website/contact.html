@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="assets/styles/grid.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                Games Net
+            </a>
+            
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        About Us
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        Blog
+                    </a>
+                </li>
+            </ul>
+            
+            <a href="#" class="button">
+                Contact Us
+            </a>
+            
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <main>
+
+                    <form 
+                    action="mailto:info@gamesnet.com" 
+                    method="post"
+                    enctype="text/plain">
+                        <div class="container">
+                            <!-- First and Last Name-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <label for="first-name-input">First Name</label>
+                                    <input type="text" id="first-name-input" name="first-name" placeholder="Joe">
+                                </div>
+                                <div class="col-6">
+                                    <label for="last-name-input">Last Name</label>
+                                    <input type="text" id="last-name-input" name="last-name" placeholder="Borg">
+                                </div>
+                            </div>
+
+                            <!-- Email Address -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="email-address-input">Email Address</label>
+                                    <input type="text" id="email-address-input" name="email-address" placeholder="joeborg@gmail.com">
+                                </div>
+                            </div>
+
+                            <!-- Topic Drow-Down List -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="topic-dropdown-list">Topic</label>
+                                    <select name="topic" id="topic-dropdown-list">
+                                        <option value=""></option>
+                                        <option value="tech-support">Technical Support</option>
+                                        <option value="game-review">Submit Game Review</option>
+                                        <option value="suggestion">Suggestion</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Subject -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="subject-input">Subject</label>
+                                    <input type="text" id="subject-input" name="subject" placeholder="Please help!">
+                                </div>
+                            </div>
+
+                            <!-- Message -->
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="message-textarea">Message</label>
+                                    <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please enter your message here..."></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Buttons -->
+                            <div class="row">
+                                <div class="col-6">
+                                    <button type="submit">Send</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="reset">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </main>
+            </div>
+            <div class="col-4">
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            &copy; 2023, Matt
+        </div>
+    </footer>
+</body>
+</html>
