@@ -43,17 +43,24 @@
                     <form 
                     action="mailto:info@gamesnet.com" 
                     method="post"
-                    enctype="text/plain">
+                    enctype="text/plain" 
+                    class="contact-form">
                         <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <h3>Contact Us</h3>
+                                </div>
+                            </div>
+
                             <!-- First and Last Name-->
                             <div class="row">
                                 <div class="col-6">
                                     <label for="first-name-input">First Name</label>
-                                    <input type="text" id="first-name-input" name="first-name" placeholder="Joe">
+                                    <input type="text" id="first-name-input" name="first-name" placeholder="Joe" required>
                                 </div>
                                 <div class="col-6">
                                     <label for="last-name-input">Last Name</label>
-                                    <input type="text" id="last-name-input" name="last-name" placeholder="Borg">
+                                    <input type="text" id="last-name-input" name="last-name" placeholder="Borg" required>
                                 </div>
                             </div>
 
@@ -61,7 +68,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <label for="email-address-input">Email Address</label>
-                                    <input type="text" id="email-address-input" name="email-address" placeholder="joeborg@gmail.com">
+                                    <input type="text" id="email-address-input" name="email-address" placeholder="joeborg@gmail.com" required>
                                 </div>
                             </div>
 
@@ -69,7 +76,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <label for="topic-dropdown-list">Topic</label>
-                                    <select name="topic" id="topic-dropdown-list">
+                                    <select name="topic" id="topic-dropdown-list" required>
                                         <option value=""></option>
                                         <option value="tech-support">Technical Support</option>
                                         <option value="game-review">Submit Game Review</option>
@@ -82,7 +89,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <label for="subject-input">Subject</label>
-                                    <input type="text" id="subject-input" name="subject" placeholder="Please help!">
+                                    <input type="text" id="subject-input" name="subject" placeholder="Please help!" required>
                                 </div>
                             </div>
 
@@ -90,17 +97,17 @@
                             <div class="row">
                                 <div class="col-12">
                                     <label for="message-textarea">Message</label>
-                                    <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please enter your message here..."></textarea>
+                                    <textarea name="message" id="message-textarea" cols="30" rows="10" placeholder="Please enter your message here..." required></textarea>
                                 </div>
                             </div>
 
                             <!-- Buttons -->
                             <div class="row">
                                 <div class="col-6">
-                                    <button type="submit">Send</button>
+                                    <button type="submit" class="button">Send</button>
                                 </div>
                                 <div class="col-6">
-                                    <button type="reset">Cancel</button>
+                                    <button type="reset" class="button clear">Cancel</button>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +115,24 @@
                 </main>
             </div>
             <div class="col-4">
+                <aside>
+                    <div class="contact-details">
+                        <h3>Snail Mail</h3>
+                        <p>
+                            1, GamesNet,
+                            <br>
+                            Triq il-Kbira
+                            <br>
+                            Mosta
+                        </p>
 
+                        <!-- Horizontal Rule - a seaparator line -->
+                        <hr>
+
+                        <h3>Email</h3>
+                        <a href="mailto:info@gamesnet.com">info@gamesnet.com</a>
+                    </div>
+                </aside>
             </div>
         </div>
     </div>
